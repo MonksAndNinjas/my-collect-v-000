@@ -9,6 +9,6 @@ def my_collect(languages)
   languages
 end
 
-my_collect() do |language|
-  language.capitalize
+my_collect(languages) do |language|
+
 end
