@@ -10,5 +10,5 @@ def my_collect(languages)
 end
 
 my_collect(languages) do |language|
-
+  language.capitalize
 end
