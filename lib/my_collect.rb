@@ -8,3 +8,6 @@ def my_collect(languages)
   end
   collection
 end
+
+my_collect(languages) do |language|
+end
