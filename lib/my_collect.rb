@@ -9,6 +9,7 @@ def my_collect(languages)
   languages
 end
 
+collection = []
 my_collect(collection) do |language|
   language.upcase
 end
